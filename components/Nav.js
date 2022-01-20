@@ -18,49 +18,49 @@ function Nav({toggle, logo, scroll, Image, LinkS}) {
 
                 
                 <ul className={"md:flex md:h-full md:list-none md:text-center hidden text-white"}>
-                    <li className="flex hover:text-indigo-300 justify-center items-center h-full">
+                    <li className="flex justify-center items-center h-full">
                         <LinkS  to='home'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                className="cursor-pointer mr-10 font-medium transition ease-in-out duration-300 ">
+                                className="cursor-pointer hover:text-[#60EE93] mr-10 font-medium transition ease-in-out duration-300 ">
                                 Home
                         </LinkS>
                     </li>
 
-                    <li className="flex hover:text-indigo-300 justify-center items-center h-full">
-                        <LinkS  to='about'
+                    <li className="flex  justify-center items-center h-full">
+                        <LinkS  to='aboutme'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                className="cursor-pointer mr-10 font-medium transition ease-in-out duration-300 ">
+                                className="cursor-pointer hover:text-[#60EE93] mr-10 font-medium transition ease-in-out duration-300 ">
                                 About Me
                         </LinkS>
                     </li>
-                    <li className="flex hover:text-indigo-300 justify-center items-center h-full">
-                        <LinkS  to='work'
+                    <li className="flex justify-center items-center h-full">
+                        <LinkS  to='projects'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                className="cursor-pointer mr-10 font-medium transition ease-in-out duration-300 ">
+                                className="cursor-pointer hover:text-[#60EE93] mr-10 font-medium transition ease-in-out duration-300 ">
                                 Projects
                         </LinkS>
                     </li>
 
-                    <li className="flex hover:text-indigo-300 justify-center items-center h-full">
-                        <LinkS  to='contact'
+                    <li className="flex  justify-center items-center h-full">
+                        <LinkS  to='contactme'
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                className="cursor-pointer mr-10 font-medium transition ease-in-out duration-300 ">
+                                className="cursor-pointer hover:text-[#60EE93] mr-10 font-medium transition ease-in-out duration-300 ">
                                 Contact Me
                         </LinkS>
                     </li>
