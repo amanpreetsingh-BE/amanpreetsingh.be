@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(12.885,0,0,9.69889,-1986.57,-789.037)">
+        <path d="M305.517,135.483C305.517,108.453 288.999,86.509 268.652,86.509L194.923,86.509C174.577,86.509 158.058,108.453 158.058,135.483L158.058,233.433C158.058,260.463 174.577,282.407 194.923,282.407L268.652,282.407C288.999,282.407 305.517,260.463 305.517,233.433L305.517,135.483Z" style="fill:rgb(23,23,23);"/>
+    </g>
+    <g transform="matrix(5.12187,0,0,4.99545,-187.697,-376.466)">
+        <ellipse cx="231.887" cy="275.544" rx="146.431" ry="150.137" style="fill:rgb(23,23,23);stroke:rgb(255,102,49);stroke-width:5.77px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,455.504,604.361)">
+        <text x="127.747px" y="602.217px" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:600px;fill:white;">AS</text>
+    </g>
+</svg>
