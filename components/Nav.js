@@ -5,7 +5,7 @@ function Nav({toggle, logo, scroll, Image, LinkS}) {
 
 
     return (
-        <nav className="top-0 z-10 sticky h-32 flex bg-blk">
+        <nav className="top-0 z-20 sticky h-32 flex bg-blk">
             
             <div className="flex justify-between px-8 md:px-14 h-full w-full">
                 <div onClick={()=>scroll.scrollToTop()} className="hidden md:flex md:h-full md:justify-center md:items-center">

@@ -6,14 +6,14 @@ function MobileNav({toggle, isOpen, logo, Image, LinkS}) {
     const top = isOpen ? " top-full" : " -top-0 "
 
     return (
-        <aside className={"z-40 fixed bg-blk w-screen h-full grid items-center transition ease-in-out duration-300 left-0 text-white "+opacity+top}>
+        <aside className={"z-40 fixed bg-blk w-screen h-full md:font-fontMT font-sans grid items-center transition ease-in-out duration-300 left-0 text-white "+opacity+top}>
             <div onClick={toggle} className="absolute top-8 right-8 w-8 h-8 cursor-pointer outline-none">
                 <XIcon className="text-3xl text-red-400 hover:text-red-500 transition ease-in-out duration-300 "/>
             </div>
-            <div className="flex flex-col space-y-36">
+            <div className="flex flex-col space-y-20">
                 <Link passHref href="/" >
                         <div onClick={toggle} className="flex h-full justify-center items-center">
-                            <Image className={"cursor-pointer"} src={logo} width={'150'} height={'150'} alt={'logo'}/>
+                            <Image className={"cursor-pointer"} src={logo} width={'85'} height={'85'} alt={'logo'}/>
                         </div>
                 </Link>
 
